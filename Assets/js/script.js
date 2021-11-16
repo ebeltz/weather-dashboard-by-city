@@ -65,8 +65,9 @@ function initPage() {
                 fivedayEl.classList.remove("d-none");
 
                 // next 5 day forecast displayed through parsed response
-                const forecastELs = document.querySelectorAll(".forecast");
-                for (i = 0; i < forecastELs.length; i++) {
+                const forecastEls = document.querySelectorAll(".forecast");
+                for (i = 0; i < forecastEls.length; i++) {
+                    forecastEls[i].innerHTML = "";
                     const forecastIndex = i * 8 + 4;
                     const forecastDate = new Date(response.data.list[forecastIndex].dt * 1000);
                     const forecastDay = forecastDate.getDate();
