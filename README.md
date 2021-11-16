@@ -1,19 +1,20 @@
-# Weather Dashboard By City
+# Weather Dashboard by City
 
-## Quiz
-To create this quiz, I had to first develop the main outline and add that to the main html file. After adding all the important information to my HTML file, I went and added the styling to my CSS file. After styling my code quiz, I started to add my JavaScript. This code quiz has multiple questions that quiz the user about coding and when they get a question correct, the quiz adds a point to the score. However, if the user gets a question wrong, the quiz takes away time from the timer. This quiz allows users to input their initials for their score and it keeps a list of the highscores as well. 
+## Weather Dashboard
+To create this weather dashboard, I first created the basic outline in the HTML document. I used Bootstrap to help format the HTML. After finishing the HTML outline, I started to code the JavaScript with the help of OpenWeather One Call API. To start, I created a function that assigned the IDs that I had created in my HTML document as elements in my JavaScript file. Once the elements were created, I was able to start to code the rest of the app. I used multiple functions and elements to create an app that allows a user to search either by just the city name or city name and state name and see the 5 day forecast for that city. I also created a function that allowed for the local storage to be accessed for previous weather searches. There is also a function to clear that history as well.
 
 ## Screenshots
-![Screenshot #1](https://github.com/ebeltz/weather-dashboard-by-city/blob/main/assets/images/screenshot1.png)
+![Screenshot #1](https://github.com/ebeltz/weather-dashboard-by-city/blob/main/Assets/images/screenshot1.png)
 
 ## Built With
 * HTML
 * CSS
 * JavaScript
 * Bootstrap
+* OpenWeather One Call API 
 
 ## Website
-https://ebeltz.github.io/code-quiz/
+https://ebeltz.github.io/weather-dashboard-by-city/
 
 ## Contribution
-Code quiz created by Elizabeth B
+Weather Dashboard by City created by Elizabeth B
